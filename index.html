@@ -4,156 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peintre Nyon - Votre entreprise de peinture</title>
-    <!-- Canonical Tag -->
-    <link rel="canonical" href="https://peintrenyon.github.io/">
     <style>
-        /* Optional CSS to style the banner image */
-        .banner {
-            width: 100%; /* Makes the image span the full width of the page */
-            height: auto; /* Keeps the aspect ratio of the image */
-            display: block; /* Ensures the image behaves like a block element */
-            margin-bottom: 20px; /* Adds space below the image */
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-    </style>
-</head>
-<body>
-    <!-- Add the banner image -->
-    <img src="banner.jpg" alt="Banner Image">
-    <h1>Peintre Nyon - Notre entreprise de peinture à votre service</h1>
 
-    <h2>Peintre Nyon - Table des matières</h2>
-    <ol>
-        <li>Introduction</li>
-        <li>Pourquoi est-il important de choisir le bon peintre ?</li>
-        <li>Les qualités d'un bon peintre
-            <ul>
-                <li>Expérience et savoir-faire du peintre</li>
-                <li>Utilisation de matériaux de qualité</li>
-                <li>Respect des délais</li>
-            </ul>
-        </li>
-        <li>Les services proposés par les peintres
-            <ul>
-                <li>Peinture intérieure</li>
-                <li>Peinture extérieure</li>
-                <li>Rénovation et réparation des peintures</li>
-            </ul>
-        </li>
-        <li>Comment trouver un peintre à Nyon ?
-            <ul>
-                <li>Recherche en ligne</li>
-                <li>Recommandations des amis et proches</li>
-                <li>Vérification des portfolios et avis clients</li>
-            </ul>
-        </li>
-        <li>Les coûts des travaux de peinture et la budgétisation
-            <ul>
-                <li>Facteurs influençant les coûts</li>
-                <li>Comment demander un devis ?</li>
-            </ul>
-        </li>
-        <li>Conseils pour une meilleure collaboration avec votre peintre
-            <ul>
-                <li>Clarifiez vos attentes</li>
-                <li>Communiquez efficacement avec votre peintre</li>
-            </ul>
-        </li>
-        <li>Conclusion</li>
-    </ol>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
 
-    <h2>Vous cherchez un peintre à Nyon</h2>
-    <p>Vous cherchez un peintre professionnel à Nyon ? Choisir le bon artisan peut avoir un impact énorme sur le résultat final de votre projet. Dans cet article, nous allons explorer les points clés pour sélectionner un peintre à Nyon.</p>
+        /* Header/Banner */
+        header {
+            position: relative;
+            width: 100%;
+            height: 50vh; /* Reduced banner height */
+            background: url('YOUR_GITHUB_IMAGE_URL_HERE') no-repeat center center/cover; /* Replace with your GitHub image URL */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
 
-    <h2>Pourquoi est-il important de choisir le bon peintre ?</h2>
-    <p>Opter pour un peintre capable de répondre à vos attentes est crucial. La couleur et l'apparence d'un espace influencent non seulement son esthétique mais aussi l'ambiance qu'il dégage.</p>
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-    <h2>Les qualités d'un bon peintre</h2>
-    <h3>Expérience et savoir-faire du peintre</h3>
-    <p>Un artisan professionnel et expérimenté peut offrir les meilleurs résultats. L'expérience permet de résoudre les problèmes efficacement et de garantir un travail de qualité.</p>
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
 
-    <h3>Utilisation de matériaux de qualité</h3>
-    <p>Les peintres réputés utilisent toujours des peintures et des matériaux de haute qualité pour assurer durabilité et beauté.</p>
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
 
-    <h3>Respect des délais</h3>
-    <p>Rien n'est plus frustrant qu'un projet qui traîne en longueur. Un peintre professionnel respecte toujours son calendrier.</p>
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
 
-    <h2>Les services proposés par les peintres</h2>
-    <h3>Peinture intérieure</h3>
-    <p>Peindre les murs intérieurs, les plafonds, et même les portes fait partie des services courants.</p>
+        /* Section Styling */
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-    <h3>Peinture extérieure</h3>
-    <p>La façade extérieure d'un bâtiment nécessite une attention particulière. Une peinture extérieure peut améliorer considérablement l'apparence de votre bâtiment.</p>
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
 
-    <h3>Rénovation et réparation des peintures</h3>
-    <p>Si vos murs sont abîmés, la rénovation et la réparation des peintures peuvent être une excellente option.</p>
+        section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
 
-    <h2>Comment trouver un peintre à Nyon ?</h2>
-    <h3>Recherche en ligne</h3>
-    <p>Internet est sans doute le premier et le plus simple des outils. Une simple recherche peut vous fournir une liste de peintres à Nyon.</p>
+        section ul {
+            list-style: disc;
+            margin: 15px 20px;
+        }
 
-    <h3>Recommandations des amis et proches</h3>
-    <p>Demandez à vos amis et à votre famille. Ils pourraient avoir de bonnes expériences à partager qui vous aideront.</p>
+        section ul li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
 
-    <h3>Vérification des portfolios et avis clients</h3>
-    <p>Avant de choisir un peintre, examinez ses travaux précédents et lisez les avis des clients.</p>
-
-    <h2>Les coûts des travaux de peinture et la budgétisation</h2>
-    <h3>Facteurs influençant les coûts</h3>
-    <p>Des éléments tels que la taille du projet, le type de peinture et la quantité de travail nécessaire influencent les coûts.</p>
-
-    <h3>Comment demander un devis ?</h3>
-    <p>Avant de commencer le projet, demandez des devis à plusieurs peintres et comparez-les.</p>
-
-    <h2>Conseils pour une meilleure collaboration avec votre peintre</h2>
-    <h3>Clarifiez vos attentes</h3>
-    <p>Dès le départ, soyez clair sur ce que vous attendez. Cela réduira les malentendus au minimum.</p>
-
-    <h3>Communiquez efficacement avec votre peintre</h3>
-    <p>Pendant toute la durée du projet, maintenez une communication régulière avec votre peintre pour vous assurer que tout avance comme prévu.</p>
-
-    <h2>Conclusion</h2>
-    <p>Choisir un peintre à Nyon peut être un défi, mais en suivant les conseils mentionnés, vous pouvez prendre la meilleure décision. Rappelez-vous que la qualité est toujours prioritaire et que l'apparence de votre espace reflète votre style. Prenez votre temps, faites vos recherches, et profitez du résultat final !</p>
-
-    <h1>Peintre Nyon : Votre solution pour des travaux de peinture de qualité</h1>
-    <h2>Notre entreprise de peinture</h2>
-    <ul>
-        <li>Nous sommes une entreprise de peinture établie à Nyon, spécialisée dans les travaux de peinture intérieure et extérieure.</li>
-        <li>Nous avons une équipe de peintres expérimentés et qualifiés pour répondre à vos besoins.</li>
-        <li>Nous sommes fiers de notre qualité et de notre prix compétitif.</li>
-        <li>Nous sommes une entreprise familiale avec une longue expérience dans le domaine de la peinture.</li>
-    </ul>
-
-   
-  <h2>Contact et devis</h2>
-<ul>
-    <li>Contactez-nous pour obtenir un devis gratuit et personnalisé.</li>
-    <li>Nous sommes à votre disposition pour répondre à vos questions et vos besoins.</li>
-    <li>Nous vous proposons des solutions de peinture adaptées pour un intérieur harmonieux et lumineux.</li>
-</ul>
-<p>
-    Au fil de la vie de votre habitation ou de votre bureau, vous aurez besoin de diverses prestations, 
-    qu'il s'agisse de peinture, de plâtrerie ou même de revêtement de sol. Dans le canton de Vaud, 
-    trouver un artisan qui combine professionnalisme et savoir-faire est essentiel. Le peintre que 
-    vous choisirez à Nyon saura non seulement embellir votre endroit de vie, mais pourra également 
-    vous conseiller sur l'entretien optimal de vos surfaces. Grâce à son expertise acquise sur de 
-    nombreux chantiers et sa connaissance approfondie des techniques de plâtrier, il saura répondre 
-    aux attentes d'une clientèle exigeante. N'hésitez pas à prendre le temps de bien choisir votre 
-    artisan pour garantir un résultat à la hauteur de vos espérances.
-</p>
-<h4>Peintre Nyon</h4>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Google Map</title>
-    <style>
-        /* Responsive container for the iframe */
+        /* Map Container */
         .map-container {
             position: relative;
-            padding-bottom: 56.25%; /* Aspect ratio 16:9 (height/width = 9/16 = 0.5625) */
+            padding-bottom: 56.25%;
             height: 0;
             overflow: hidden;
+            margin: 20px 0;
         }
 
         .map-container iframe {
@@ -162,20 +101,160 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: 0; /* Remove border for a cleaner look */
+            border: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .cta-button {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+
+            section h2 {
+                font-size: 1.5rem;
+            }
+
+            section p {
+                font-size: 0.9rem;
+            }
+
+            section ul li {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
 <body>
-    
-    <!-- Responsive map container -->
-    <div class="map-container">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11008.839682121474!2d6.2286878!3d46.3850614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c432f772f0867%3A0x6fb7d41a1241af47!2s1260%20Nyon%2C%20Switzerland!5e0!3m2!1sen!2sus!4v1734531408590!5m2!1sen!2sus" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
+    <!-- Header/Banner with CTA -->
+    <header>
+        <div>
+            <h1>Peintre Nyon</h1>
+            <p>Votre entreprise de peinture à votre service</p>
+            <a href="#contact" class="cta-button">Contactez-nous</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Table of Contents -->
+        <section>
+            <h2>Table des matières</h2>
+            <ul>
+                <li>Introduction</li>
+                <li>Pourquoi est-il important de choisir le bon peintre ?</li>
+                <li>Les qualités d'un bon peintre</li>
+                <li>Les services proposés par les peintres</li>
+                <li>Comment trouver un peintre à Nyon ?</li>
+                <li>Les coûts des travaux de peinture et la budgétisation</li>
+                <li>Conseils pour une meilleure collaboration avec votre peintre</li>
+                <li>Conclusion</li>
+            </ul>
+        </section>
+
+        <!-- Introduction Section -->
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                Vous cherchez un peintre professionnel à Nyon ? Choisir le bon artisan peut avoir un
+                impact énorme sur le résultat final de votre projet. Dans cet article, nous allons
+                explorer les points clés pour sélectionner un peintre à Nyon.
+            </p>
+        </section>
+
+        <!-- Importance of Choosing the Right Painter -->
+        <section>
+            <h2>Pourquoi est-il important de choisir le bon peintre ?</h2>
+            <p>
+                Opter pour un peintre capable de répondre à vos attentes est crucial. La couleur et
+                l'apparence d'un espace influencent non seulement son esthétique mais aussi
+                l'ambiance qu'il dégage.
+            </p>
+        </section>
+
+        <!-- Qualities of a Good Painter -->
+        <section>
+            <h2>Les qualités d'un bon peintre</h2>
+            <ul>
+                <li><strong>Expérience et savoir-faire :</strong> Un artisan professionnel et expérimenté peut offrir les meilleurs résultats.</li>
+                <li><strong>Utilisation de matériaux de qualité :</strong> Les peintres réputés utilisent des matériaux de haute qualité.</li>
+                <li><strong>Respect des délais :</strong> Un peintre professionnel respecte toujours son calendrier.</li>
+            </ul>
+        </section>
+
+        <!-- Services Offered -->
+        <section>
+            <h2>Les services proposés par les peintres</h2>
+            <ul>
+                <li><strong>Peinture intérieure :</strong> Peindre les murs intérieurs, les plafonds et les portes.</li>
+                <li><strong>Peinture extérieure :</strong> Améliorer l'apparence extérieure de votre bâtiment.</li>
+                <li><strong>Rénovation et réparation :</strong> Réparer les murs abîmés et rénover les peintures anciennes.</li>
+            </ul>
+        </section>
+
+        <!-- How to Find a Painter -->
+        <section>
+            <h2>Comment trouver un peintre à Nyon ?</h2>
+            <ul>
+                <li><strong>Recherche en ligne :</strong> Une simple recherche peut vous fournir une liste de peintres.</li>
+                <li><strong>Recommandations :</strong> Demandez à vos amis et à votre famille leurs expériences.</li>
+                <li><strong>Vérification des portfolios :</strong> Examinez les travaux précédents et lisez les avis clients.</li>
+            </ul>
+        </section>
+
+        <!-- Costs and Budgeting -->
+        <section>
+            <h2>Les coûts des travaux de peinture et la budgétisation</h2>
+            <p>
+                Des éléments tels que la taille du projet, le type de peinture et la quantité de
+                travail nécessaire influencent les coûts. Avant de commencer, demandez des devis à
+                plusieurs peintres et comparez-les.
+            </p>
+        </section>
+
+        <!-- Tips for Collaboration -->
+        <section>
+            <h2>Conseils pour une meilleure collaboration avec votre peintre</h2>
+            <ul>
+                <li><strong>Clarifiez vos attentes :</strong> Soyez clair dès le départ sur ce que vous attendez.</li>
+                <li><strong>Communiquez efficacement :</strong> Maintenez une communication régulière avec votre peintre.</li>
+            </ul>
+        </section>
+
+        <!-- Google Map -->
+        <section>
+            <h2>Localisation</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11008.839682121474!2d6.2286878!3d46.3850614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c432f772f0867%3A0x6fb7d41a1241af47!2s1260%20Nyon%2C%20Switzerland!5e0!3m2!1sen!2sus!4v1734531408590!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Peintre Nyon - Votre entreprise de peinture | Tous droits réservés</p>
+    </footer>
 </body>
 </html>
