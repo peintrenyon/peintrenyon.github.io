@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://peintrenyon.github.io/sitemap.xml
